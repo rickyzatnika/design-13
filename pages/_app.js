@@ -2,9 +2,9 @@ import "aos/dist/aos.css";
 import "../styles/globals.css";
 
 import { useState, useEffect } from "react";
-import { Layout, Loading } from "../components";
+import { Layout } from "../components";
 import Head from "next/head";
-import { AnimatePresence } from "framer-motion";
+
 
 export default function App({ Component, pageProps }) {
   const [showChild, setShowChild] = useState(false);
@@ -33,12 +33,12 @@ export default function App({ Component, pageProps }) {
           <meta property="og:description" content="Webqodes Invitation - Buat undangan pernikahanmu yang spesial dengan web undangan kami. Temukan desain dan pilihan yang sesuai dengan kebutuhanmu." />
           <meta property="og:url" content="https://design-10.vercel.app" />
         </Head>
-        <AnimatePresence mode="wait">
-          <Layout>
-            <Loading />
-            <Component {...pageProps} />
-          </Layout>
-        </AnimatePresence>
+
+        <Layout>
+
+          <Component {...pageProps} />
+        </Layout>
+
       </>
     );
   }

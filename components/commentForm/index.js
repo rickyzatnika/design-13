@@ -58,13 +58,13 @@ const CommentForm = ({ guest }) => {
       <AOSWrapper>
         <div
           id="wish"
-          className="overflow-hidden shadow-xl  pb-10  shadow-black/10 px-1 lg:px-3 relative bg-gradient-to-t from-[#FBFBFB] to-[#FFFDD0]"
+          className="overflow-hidden shadow-xl  pt-24 pb-2  shadow-black/10 px-1 lg:px-3 relative bg-[#050608]"
         >
-          <div className="absolute top-8  -right-12">
+          <div className="absolute top-8 bg-goyang -right-12">
             <Image src="/img/bunga-2.png" alt="" width={200} height={175} objectFit="cover" />
           </div>
           <div className="pt-9 text-left">
-            <div className="flex gap-2 items-center bg-gradient-to-tl from-[#E6E6FA] py-2 via-zinc-500 to-[#E6E6FA]  bg-clip-text text-transparent ">
+            <div className="flex gap-2 items-center bg-gradient-to-tr from-stone-400 py-2 via-stone-400 to-stone-600  bg-clip-text text-transparent ">
               <h3
                 data-aos="fade-right"
                 data-aos-duration="1500"
@@ -78,7 +78,7 @@ const CommentForm = ({ guest }) => {
               <h3 data-aos="fade-left"
                 data-aos-duration="1500" className="text-2xl alex">Harapan</h3>
             </div>
-            <p className="text-zinc-500/80 brush px-2 text-xl">
+            <p className="text-stone-400/80 brush px-2 text-xl">
               Do`a dan ucapan terbaik untuk kami
             </p>
           </div>

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/legacy/image";
 import AOSWrapper from "../AOS/AOSWrapper";
@@ -12,14 +13,14 @@ const Profile = () => {
     <>
       <AOSWrapper>
         <div
-          className="w-full min-h-screen bg-gradient-to-b from-[#FBFBFB] to-[#f7f5f5]  flex flex-col items-center justify-center py-10 lg:justify-between relative "
+          className="w-full -top-1 min-h-screen bg-gradient-to-b from-stone-900 to-[#050608]  flex flex-col items-center justify-center py-10 lg:justify-between relative "
           id="profile"
         >
           {/* {showQrCode && <GetQrCode setShowQrCode={setShowQrCode} />} */}
 
-          <div className="bg-[#f7f5f5] rounded-3xl shadow-lg shadow-black/10 w-[93%] md:w-[80%] py-12 relative  flex flex-col items-center justify-center  h-full  z-30">
-            <div className="flex shadow-inner overflow-hidden w-fit bg-[#FBFBFB] p-6 sm:p-8 px-10 sm:px-14 shadow-black/20 flex-col justify-center gap-0 items-center relative mx-auto">
-              <div className="animated-element absolute -bottom-8 -left-12 w-full">
+          <div className="bg-[#333333] rounded-3xl shadow-lg shadow-black/10 w-[93%] md:w-[80%] py-12 relative  flex flex-col items-center justify-center  h-full  z-30">
+            <div className=" flex shadow-inner overflow-hidden w-fit  p-6 sm:p-8 px-10 sm:px-14 shadow-black/20 flex-col justify-center gap-0 items-center relative mx-auto">
+              <div className="absolute -bottom-8 -left-12 w-full">
                 <Image
                   src="/img/bunga.png"
                   width={150}
@@ -32,25 +33,21 @@ const Profile = () => {
               <div
                 data-aos="zoom-in"
                 data-aos-duration="800"
-                className="relative overflow-hidden"
+                className="relative "
               >
-                <div className="absolute left-0 right-0 w-full h-full z-10 bg-gradient-to-t from-zinc-400/70 to-black/20 rounded-t-full  " />
-                <Image
+                <div className="absolute top-0.5 left-3 mx-auto right-0 w-6/12 h-full -z-5 bg-gradient-to-t from-[#050608]/30 to-black/20 rounded-t-full  " />
+                <img
                   src="/img/gallery/man.png"
                   alt=""
-                  width={160}
-                  height={200}
-                  className="rounded-t-full"
-                  objectFit="cover"
-                  priority
+                  className="rounded-t-full object-cover object-center relative z-10 w-6/12 h-auto  mx-auto"
                 />
               </div>
 
-              <div className="animated-element flex flex-col gap-2 items-center justify-center px-4">
+              <div className="mt-3 flex flex-col gap-2 items-center justify-center px-4">
                 <h2
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                  className="titles text-2xl text-[#6C5B7B] capitalize "
+                  className="titles text-2xl text-stone-500 capitalize "
                 >
                   Satrio Kusuma
                 </h2>
@@ -62,26 +59,26 @@ const Profile = () => {
                 >
                   <SlSocialInstagram
                     size={22}
-                    className="text-zinc-400 mb-2 animate-spin hover:animate-none"
+                    className="text-stone-400/80 mb-2 animate-spin hover:animate-none"
                   />
                 </Link>
-                <div className="text-center text-[#9c8b7a] ">
+                <div className="text-center text-stone-400/80 ">
                   <p
                     data-aos="fade-up"
                     data-aos-duration="800"
-                    className="alex text-zinc-500 text-sm"
+                    className="alex text-stone-400/80 text-xl"
                   >
                     Putra dari :
                   </p>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="900"
-                    className="titles text-zinc-500 text-lg"
+                    className="titles text-stone-400/80 text-xl"
                   >
                     Bpk. Irawan Yusmiatna{" "}
                   </p>
                   <p
-                    className="text-zinc-500"
+                    className="text-stone-400/80"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                   >
@@ -90,7 +87,7 @@ const Profile = () => {
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    className="titles text-zinc-500 text-lg"
+                    className="titles text-stone-400/80 text-lg"
                   >
                     Ibu Rosmini
                   </p>
@@ -100,11 +97,11 @@ const Profile = () => {
             <div
               data-aos="zoom-in"
               data-aos-duration="1000"
-              className="brush text-6xl my-3 text-[#6C5B7B]  "
+              className="brush text-6xl my-3 text-stone-400  "
             >
               &
             </div>
-            <div className="relative  overflow-hidden shadow-inner bg-zinc-50  p-6 sm:p-8 px-10 sm:px-14 w-fit shadow-black/20  flex flex-col items-center justify-center gap-0">
+            <div className="relative  overflow-hidden shadow-inner  p-6 sm:p-8 px-10 sm:px-14 w-fit shadow-black/20  flex flex-col items-center justify-center gap-0">
               <div className="absolute -bottom-8 -right-14 ">
                 <Image
                   src="/img/bunga.png"
@@ -120,59 +117,59 @@ const Profile = () => {
                 data-aos-duration="800"
                 className="relative overflow-hidden"
               >
-                <div className="absolute  left-0 right-0 w-full h-full z-10 bg-gradient-to-t from-zinc-400/70 via-transparent rounded-t-full to-black/20  " />
-                <Image
+                <div className="absolute top-0.5 left-3 mx-auto right-0 w-6/12 h-full -z-5 bg-gradient-to-t from-[#050608]/30 to-black/20 rounded-t-full  " />
+                <img
                   src="/img/gallery/girl.png"
                   alt=""
-                  width={160}
-                  height={200}
-                  objectFit="cover"
-                  className="rounded-t-full"
-                  priority
+                  className="rounded-t-full object-cover object-center relative z-10 w-6/12 h-auto  mx-auto"
                 />
               </div>
 
-              <div className="flex flex-col gap-2 items-center justify-center px-4">
+              <div className="mt-3 flex flex-col gap-2 items-center justify-center px-4">
                 <h2
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                  className="titles text-2xl text-[#6C5B7B] capitalize "
+                  className="titles text-2xl text-stone-500 capitalize "
                 >
                   Nisa Ayu Hartati
                 </h2>
                 <Link
-                  href="https://instagram.com/dindanovitas"
+                  href="https://instagram.com/rahmadi.irawansyah"
                   target="_blank"
                   passHref
                   prefetch={false}
                 >
                   <SlSocialInstagram
-                    className="text-zinc-400 mb-2  animate-spin hover:animate-none"
                     size={22}
+                    className="text-stone-400/80 mb-2 animate-spin hover:animate-none"
                   />
                 </Link>
-                <div className="text-center text-zinc-500">
+                <div className="text-center text-stone-400/80 ">
                   <p
                     data-aos="fade-up"
                     data-aos-duration="800"
-                    className="alex text-sm"
+                    className="alex text-stone-400/80 text-xl"
                   >
                     Putra dari :
                   </p>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="900"
-                    className="titles  text-lg"
+                    className="titles text-stone-400/80 text-xl"
                   >
                     Bpk. Irawan Yusmiatna{" "}
                   </p>
-                  <p data-aos="fade-up" data-aos-duration="1000">
+                  <p
+                    className="text-stone-400/80"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
                     &
                   </p>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    className="titles text-lg"
+                    className="titles text-stone-400/80 text-lg"
                   >
                     Ibu Rosmini
                   </p>

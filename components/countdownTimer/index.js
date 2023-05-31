@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { motion } from "framer-motion";
+
 
 export default function CountDownTimer({ ...props }) {
   const [timerDays, setTimerDays] = useState("00");

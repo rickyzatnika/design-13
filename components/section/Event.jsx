@@ -4,7 +4,7 @@ import Image from "next/legacy/image";
 import { AddToCalendarButton } from "add-to-calendar-button-react";
 import { useRouter } from "next/router";
 import AOSWrapper from "../AOS/AOSWrapper";
-import { motion } from "framer-motion";
+
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import Swal from "sweetalert2";
@@ -96,11 +96,11 @@ const Event = ({ guest }) => {
     <AOSWrapper>
       <div
         ref={sectionRef}
-        className="w-full h-auto py-16  bg-gradient-to-t from-[#f7f5f5] to-[#FFFFFF] relative px-2 overflow-hidden"
+        className="w-full h-auto py-16 -top-1  bg-gradient-to-b from-[#333333] to-[#050608] relative px-2 overflow-hidden"
         id="event"
       >
         <div
-          className="absolute left-0 shadow-inner z-50 rotate-180 py-8 px-1 top-0 titles font-semibold tracking-widest bg-[#F8F8F8]  rounded-tl-3xl text-zinc-700 text-xl"
+          className="absolute left-0 shadow-inner shadow-stone-600 z-50 rotate-180 py-8 px-1 top-0 titles tracking-widest bg-[#050608]  rounded-tl-3xl text-stone-400 text-xl"
           style={{ writingMode: "vertical-rl" }}
         >
           SAVE THE DATE
@@ -118,9 +118,10 @@ const Event = ({ guest }) => {
               startTime="10:15"
               endTime="14:20"
               timeZone="Asia/Jakarta"
-              buttonStyle="neumorphism"
-              lightMode="bodyScheme"
-              size="1"
+              buttonStyle="date"
+              label=" add to calendar"
+              trigger="click"
+              size="5"
             ></AddToCalendarButton>
           </div>
 
@@ -130,15 +131,7 @@ const Event = ({ guest }) => {
           <>
             {showAttend && (
               <div className="w-full md:w-5/6 lg:w-2/6 min-h-screen bg-black/70  fixed z-[999999999] flex items-center justify-center top-0 right-0">
-                <motion.div
-                  initial={{ y: "-10%" }}
-                  animate={{ y: 0 }}
-                  transition={{
-                    duration: 0.6,
-                    damping: 50,
-                  }}
-                  className="w-full h-auto px-2 "
-                >
+                <div className="w-full h-auto px-2 ">
                   <form
                     onSubmit={handleSubmit(attendForm)}
                     className="w-full relative  shadow-lg overflow-hidden shadow-black/20 bg-[#F5F5DC] rounded z-50 h-auto  px-3 pt-10 pb-10 flex flex-col items-center justify-center gap-3"
@@ -239,7 +232,7 @@ const Event = ({ guest }) => {
                       </button>
                     )}
                   </form>
-                </motion.div>
+                </div>
               </div>
             )}
           </>

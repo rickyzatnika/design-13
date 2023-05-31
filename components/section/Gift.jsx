@@ -29,7 +29,7 @@ const Gift = () => {
   return (
     <>
       <AOSWrapper>
-        <div className="w-full overflow-hidden min-h-3xl bg-[#FFFDD0] pb-14 px-4 flex items-center pt-8 ">
+        <div className="w-full overflow-hidden min-h-3xl bg-[#050608] pb-14 px-4 flex items-center pt-8 ">
           <div className=" w-full mx-auto bg-[#F5F5F5] pt-4 pb-8 rounded-[50px] h-full lg:w-5/6 px-2 lg:px-12 shadow-lg shadow-black/10 flex flex-col items-center justify-center">
             <div className="flex flex-col gap-3 items-center justify-center">
               <div className="bg-gradient-to-tl from-[#F5F5F5] py-2 via-zinc-600 to-[#E6E6FA]  bg-clip-text text-transparent">

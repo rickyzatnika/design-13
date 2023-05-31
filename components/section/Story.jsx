@@ -33,9 +33,9 @@ const Story = () => {
       <AOSWrapper>
         <div
           id="gallery"
-          className="w-full overflow-hidden bg-gradient-to-b from-[#F5F5F5] via-[#FFFDD0] to-[#FFDAB9]  mx-auto md:px-3 px-2 py-8 "
+          className="w-full overflow-hidden bg-gradient-to-b from-[#050608] via-[#050608] to-[#050608]  mx-auto md:px-3 px-2 py-24 "
         >
-          <div className="flex relative items-center justify-center bg-gradient-to-tr from-[#E6E6FA] py-2 via-zinc-500 to-[#E6E6FA]  bg-clip-text text-transparent ">
+          <div className="flex relative items-center justify-center bg-gradient-to-tr from-stone-600 py-2 via-stone-400 to-from-stone-600  bg-clip-text text-transparent ">
             <div className="absolute -left-4 bg-goyang -bottom-10 ">
               <Image
                 src="/img/bunga-2.png"
@@ -78,7 +78,7 @@ const Story = () => {
                     src={post?.image}
                     alt={post?.title}
                     objectFit="cover"
-                    className="rounded-[30px] w-full h-auto shadow-md shadow-pink-50"
+                    className="rounded-[30px] w-full h-auto "
                   />
                 </div>
                 <div

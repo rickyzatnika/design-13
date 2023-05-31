@@ -30,7 +30,7 @@ const BackSound = ({ isPlay, setIsPlay }) => {
       <div className="w-fit  z-[999999]  fixed flex items-center gap-2 top-4 left-2 lg:left-4">
         <div
           onClick={!isPlay ? playSong : pauseSong}
-          className="cursor-pointer  rounded-full   w-fit  shadow-lg shadow-black/30  transition-all duration-700 delay-75 ease-linear  p-2 bg-gradient-to-tr from-[#FBFBFB] via-[#926f56] to-[#FBFBFB]"
+          className="cursor-pointer  rounded-full   w-fit  shadow-lg shadow-stone-300/50  transition-all duration-700 delay-75 ease-linear  p-2 bg-gradient-to-tr from-[#FBFBFB] via-stone-500 to-[#FBFBFB]"
         >
           {!isPlay ? (
             <HiPlay

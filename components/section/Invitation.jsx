@@ -8,12 +8,17 @@ const Invitation = () => {
       <AOSWrapper>
         <div
           id="event"
-          className="w-full bg-gradient-to-b from-[#FBFBFB]  px-4  flex items-center pt-28 flex-col py-5 justify-evenly relative"
+          className="w-full -top-2 bg-gradient-to-b from-[#050608] via-[#050608] to-[#050608] px-4  flex items-center pt-28 flex-col py-5 justify-evenly relative"
         >
-          <div className="absolute -top-1 left-0 right-0 w-full z-20">
+          <div
+            data-aos="fade-down"
+            data-aos-duration="800"
+            data-aos-easing="linear"
+            className="absolute -top-16 px-5 md:px-16 left-0 right-0 w-full z-20"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
               <path
-                fill="#f7f5f5"
+                fill="#333333"
                 fillOpacity="1"
                 d="M0,64L720,320L1440,64L1440,0L720,0L0,0Z"
               ></path>
@@ -32,14 +37,17 @@ const Invitation = () => {
         />
       </div> */}
 
-          <div className=" bg-[url('/img/texture.jpg')] bg-cover bg-right-bottom relative flex flex-col items-center py-6 mt-6 justify-center rounded shadow-lg shadow-zinc-300/50">
-            <div className="absolute w-full h-full bg-gradient-to-t from-white/70 via-transparent to-white/40 " />
+          <div className=" bg-[url('/img/texture.jpg')] bg-cover bg-right-bottom relative flex flex-col items-center py-12 mt-6 justify-center rounded shadow-lg shadow-stone-800">
             <div className="flex flex-col items-center justify-center gap-4 w-full">
-              <div className="w-[60%] relative rounded-t-full border-8  border-[#E6E6FA] shadow-zinc-500 shadow-inner  text-center flex flex-col items-center gap-2  p-8 leading-relaxed">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="900"
+                className="w-[60%] relative rounded-t-full border-8  border-[#666666] shadow-stone-500 shadow-inner  text-center flex flex-col items-center gap-2  p-8 leading-relaxed"
+              >
                 <h3
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                  className="text-zinc-500 titles text-2xl "
+                  className="text-stone-500 titles text-2xl "
                 >
                   Akad Nikah
                 </h3>
@@ -57,7 +65,7 @@ const Invitation = () => {
                 <p
                   data-aos="fade-up"
                   data-aos-duration="1200"
-                  className="font-semibold titles text-zinc-500  "
+                  className="font-semibold titles text-stone-500  "
                 >
                   {" "}
                   08.00 WIB s/d Selesai
@@ -67,15 +75,19 @@ const Invitation = () => {
                 data-aos="zoom-out"
                 data-aos-duration="1200"
                 data-aos-easing="linear"
-                className="w-full text-3xl  text-zinc-500 my-4 brush relative  z-50 text-center"
+                className="w-full text-3xl  text-stone-500 my-4 brush relative  z-50 text-center"
               >
                 10 September 2023
               </h2>
-              <div className="w-[60%] relative rounded-b-full border-8  border-[#E6E6FA] shadow-inner shadow-zinc-400 text-center flex flex-col-reverse items-center gap-2  p-8 leading-relaxed">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="900"
+                className="w-[60%] relative rounded-b-full border-8  border-[#666666] shadow-inner shadow-stone-500 text-center flex flex-col-reverse items-center gap-2  p-8 leading-relaxed"
+              >
                 <h3
                   data-aos="fade-down"
                   data-aos-duration="1200"
-                  className="text-zinc-500 titles text-2xl "
+                  className="text-stone-500 titles text-2xl "
                 >
                   Resepsi
                 </h3>
@@ -93,7 +105,7 @@ const Invitation = () => {
                 <p
                   data-aos="fade-down"
                   data-aos-duration="1000"
-                  className="font-semibold titles text-zinc-500  "
+                  className="font-semibold titles text-stone-500  "
                 >
                   10.00 WIB s/d 14.20 WIB
                 </p>
@@ -103,21 +115,21 @@ const Invitation = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                className="text-zinc-500 mb-2 titles text-xl"
+                className="text-stone-500 mb-2 titles text-xl"
               >
                 Lokasi :
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1100"
-                className="text-zinc-500 mb-1 titles font-semibold flex text-xl flex-col tracking-wide items-center gap-3 "
+                className="text-stone-500 mb-1 titles font-semibold flex text-xl flex-col tracking-wide items-center gap-3 "
               >
                 Villa Bukit Indah <br />
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                className="px-3  titles text-zinc-500 leading-relaxed text-sm "
+                className="px-3  titles text-stone-500 leading-relaxed text-md "
               >
                 Jl. Mimpin Tua, Brastagi, Tanah Karo, Sumatera Utara, Berastagi,
                 Indonesia
@@ -133,7 +145,7 @@ const Invitation = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="py-2 text-sm px-5 titles animate-pulse antialiased bg-gradient-to-tr from-[#F8F8F8]/60 via-[#E6E6FA] to-[#F8F8F8]/60 shadow-md shadow-zinc-300/80 text-zinc-700 rounded">
+                <button className="py-2 text-md px-5 titles antialiased bg-gradient-to-tr from-[#F8F8F8]/60 via-[#E6E6FA] to-[#F8F8F8]/60 shadow-md  text-stone-600 rounded">
                   {" "}
                   Open Maps
                 </button>
