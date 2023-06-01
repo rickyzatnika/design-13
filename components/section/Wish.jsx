@@ -27,7 +27,7 @@ const Wish = ({ guest, posts }) => {
                 <p
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                  className="mb-2 p-2 text-sm leading-relaxed lg:text-md  text-stone-400/80 "
+                  className="mb-2 emot p-2 text-sm leading-relaxed lg:text-md  text-stone-400/80 "
                 >
                   Happy wedding Rio & Nisa, semoga menjadi keluarga yang
                   Sakinah, Mawadah & Warohmah.. Amiin ..
@@ -50,15 +50,19 @@ const Wish = ({ guest, posts }) => {
                   <span className="mb-1 capitalize text-lg titles  leading-none text-stone-400">
                     {post?.name}
                   </span>
-
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className="mb-4 p-2 text-sm leading-relaxed lg:text-md  text-stone-400/80 "
+                    className="mb-4 p-2 emot text-sm leading-relaxed lg:text-md  text-stone-400/80 "
+                    dangerouslySetInnerHTML={{ __html: post?.comments }}
+                  ></p>
+                  {/* <p
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    className="mb-4 p-2 emot text-sm leading-relaxed lg:text-md  text-stone-400/80 "
                   >
                     {post?.comments}
-                  </p>
-
+                  </p> */}
                   <small className="text-stone-400/80 p-2">{post?.date}</small>
                 </li>
 

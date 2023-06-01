@@ -24,14 +24,15 @@ export default function App({ Component, pageProps }) {
     return (
       <>
         <Head>
-          <title>Rio & Nisa</title>
+          <meta charset="utf-8" />
           <meta name="description" content="Webqodes Invitation - Buat undangan pernikahanmu yang spesial dengan web undangan kami. Temukan desain dan pilihan yang sesuai dengan kebutuhanmu."></meta>
           <meta name="keywords" content="Webqodes Invitation, web undangan pernikahan, undangan pernikahan online, desain undangan pernikahan, webhouse invitation"></meta>
           <meta name="robots" content="index, follow"></meta>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta property="og:title" content="Webqodes Invitation - Web Undangan Pernikahan Rahmadi & Dinda" />
           <meta property="og:description" content="Webqodes Invitation - Buat undangan pernikahanmu yang spesial dengan web undangan kami. Temukan desain dan pilihan yang sesuai dengan kebutuhanmu." />
-          <meta property="og:url" content="https://design-10.vercel.app" />
+          <meta property="og:url" content="https://design-13.vercel.app" />
+          <title>Rio & Nisa</title>
         </Head>
 
         <Layout>

@@ -10,6 +10,7 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Upright&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Segoe+UI+Emoji&display=swap"></link>
       </Head>
       <body>
         <Main />

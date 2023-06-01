@@ -84,6 +84,7 @@ const CommentForm = ({ guest }) => {
           </div>
           <form
             onSubmit={handleSubmit(formSubmit)}
+            accept-charset="UTF-8"
             className="max-w-3xl mx-auto relative px-2 py-9 flex flex-col "
           >
             <div className="pt-3 antialiased">
@@ -91,7 +92,7 @@ const CommentForm = ({ guest }) => {
                 name=""
                 cols="30"
                 rows="10"
-                className="w-full p-4 text-sm focus:outline-zinc-400 focus:border-none placeholder:italic rounded text-zinc-500 border-none  "
+                className="w-full font-normal p-4 text-sm focus:outline-zinc-400 focus:border-none placeholder:italic rounded text-zinc-500 border-none  "
                 placeholder="Tulis Pesan ..."
                 {...register("comments", {
                   required: true,
