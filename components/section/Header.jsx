@@ -34,7 +34,7 @@ const Header = () => {
                 data-aos-duration="800"
                 className="text-3xl md:text-4xl font-[parisienne]  px-2 font-semibold bg-gradient-to-r from-stone-500  via-[#b4b49a] to-stone-500  bg-clip-text text-transparent py-2 "
               >
-                Rio
+                Nita
               </h3>
               <p
                 data-aos="zoom-in"
@@ -48,7 +48,7 @@ const Header = () => {
                 data-aos-duration="800"
                 className="text-3xl md:text-4xl   px-2 font-semibold bg-gradient-to-r from-stone-500  via-[#b4b49a] font-[parisienne] to-stone-500  bg-clip-text text-transparent py-2"
               >
-                Nisa
+                Andi
               </h4>
             </div>
             <div

@@ -101,7 +101,7 @@ const Gift = () => {
                       data-aos-duration="1200"
                       className="text-zinc-500 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider"
                     >
-                      Satrio Kusuma
+                      ANDI SAPUTRA
                     </p>
                     <p
                       data-aos="fade-right"
@@ -158,7 +158,7 @@ const Gift = () => {
                       data-aos-duration="1200"
                       className="text-zinc-500 titles font-semibold text-md uppercase sm:text-lg mb-2 tracking-wider"
                     >
-                      Nisa Ayu Hartati
+                      Nita Ayu
                     </p>
                     <p
                       data-aos="fade-left"

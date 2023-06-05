@@ -68,13 +68,13 @@ const Aside = () => {
                   transition={{ duration: 0.4 }}
                   className="text-3xl text-zinc-900 font-[parisienne] tracking-widest"
                 >
-                  Rio
+                  Nita
                 </h1>
                 <span className="text-5xl font-[parisienne] text-zinc-900">
                   &
                 </span>
                 <h1 className="text-3xl text-zinc-900 font-[parisienne] tracking-widest">
-                  Nisa
+                  Andi
                 </h1>
               </div>
             </div>

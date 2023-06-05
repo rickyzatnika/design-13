@@ -111,7 +111,7 @@ const Event = ({ guest }) => {
           </div>
           <div data-aos="fade-up" data-aos-duration="1500">
             <AddToCalendarButton
-              name="The Wedding Rudy & Astrid"
+              name="The Wedding Nita & Andi"
               options={["Google"]}
               location="Jl. Mimpin Tua, Brastagi, Tanah Karo, Sumatera Utara Jl. Mimpin Tua, Brastagi, Tanah Karo, Sumatera Utara, Berastagi, Indonesia"
               startDate="2023-9-10"

@@ -65,9 +65,9 @@ const GetUniqueCode = ({ guest }) => {
             data-aos="fade-down"
             data-aos-duration="1000"
             className="z-50 w-fit mx-auto flex text-stone-300 pt-1 gap-1 items-center">
-            <h1 className='text-3xl sm:text-4xl brush'>Rio</h1>
+            <h1 className='text-3xl sm:text-4xl brush'>Nita</h1>
             <p className='font-[parisienne] text-4xl'>&</p>
-            <h2 className='text-3xl sm:text-4xl brush'>Nisa</h2>
+            <h2 className='text-3xl sm:text-4xl brush'>Andi</h2>
           </div>
           <div className='flex items-center flex-col justify-center relative'>
 

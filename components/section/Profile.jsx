@@ -49,7 +49,7 @@ const Profile = () => {
                   data-aos-duration="1000"
                   className="titles text-2xl text-stone-500 capitalize "
                 >
-                  Satrio Kusuma
+                  Andi Saputra
                 </h2>
                 <Link
                   href="https://instagram.com/rahmadi.irawansyah"
@@ -131,7 +131,7 @@ const Profile = () => {
                   data-aos-duration="1000"
                   className="titles text-2xl text-stone-500 capitalize "
                 >
-                  Nisa Ayu Hartati
+                  Nita Ayu
                 </h2>
                 <Link
                   href="https://instagram.com/rahmadi.irawansyah"
